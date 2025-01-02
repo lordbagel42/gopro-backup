@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/backend/node_modules
+/backend/.pnp
+/backend/.pnp.js
+
+# testing
+/backend//coverage
+
+# next.js
+/backendbackend/.next/
+/backend/out/
+
+# production
+/backend/build
+
+# misc
+/backend/.DS_Store
+/backend/*.pem
+
+# debug
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+
+# local env files
+/backend/.env.local
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+
+# vercel
+/backend/.vercel
+
+/backend/**/*.trace
+/backend/**/*.zip
+/backend/**/*.tar.gz
+/backend/**/*.tgz
+/backend/**/*.log
+/backend/package-lock.json
+/backend/**/*.bun
+
+/frontend/node_modules
+
+# Output
+/frontend/.output
+/frontend/.vercel
+/frontend/.netlify
+/frontend/.wrangler
+/frontend//.svelte-kit
+/frontend//build
+
+# OS
+/frontend/.DS_Store
+/frontend/Thumbs.db
+
+# Env
+/frontend/.env
+/frontend/.env.*
+/frontend/!.env.example
+/frontend/!.env.test
+
+# Vite
+/frontend/vite.config.js.timestamp-*
+/frontend/vite.config.ts.timestamp-*
